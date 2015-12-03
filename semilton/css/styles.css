@@ -1,0 +1,360 @@
+body {
+  Margin: 0;
+  padding: 0;
+  min-width: 100%;
+  background-color: #fafafa;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4a4949;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.webkit {
+  max-width: 570px;
+}
+
+.outer {
+  Margin: 0 auto;
+  width: 100%;
+  max-width: 570px;
+}
+
+.inner {
+  padding: 10px;
+}
+
+.contents {
+  width: 100%;
+}
+
+.clearline {
+  font-size: 1px;
+  line-height: 1px;
+}
+
+p {
+  Margin: 0;
+  padding: 0;
+}
+
+body p.h1,
+body p.h2 {
+  font: bold 28px Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body p.h2 {
+  font-size: 25.2px;
+}
+
+.column-1 {
+  text-align: center;
+  font-size: 0;
+}
+
+.column-3 {
+  text-align: center;
+  font-size: 0;
+}
+
+.column-3 .column {
+  width: 100%;
+  max-width: 190px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column-1 .contents {
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Windows Phone Viewport Fix */
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/* Outlook line-height Fix */
+
+@media screen and (max-width: 375px) {
+  .column {
+    max-width: 90% !important;
+  }
+
+  .header .logo td,
+  .header .contacts td {
+    text-align: center !important;
+  }
+
+  .btn {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 500px) {
+  .column {
+    max-width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 570px) {
+  .column-3 .column {
+    max-width: 33.33333% !important;
+  }
+
+  .header .column {
+    max-width: 25% !important;
+  }
+
+  .header .column.logo {
+    max-width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .column .contents td {
+    height: auto !important;
+  }
+
+  .img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .mobfix {
+    width: 100% !important;
+  }
+}
+
+a {
+  color: #f16823;
+}
+
+.webkit {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.header .column {
+  max-width: 142.5px;
+}
+
+.header .column.logo {
+  max-width: 285px;
+}
+
+.header .column.contacts .phone {
+  color: #ed2124;
+}
+
+.header .column.contacts .inner {
+  padding: 15px 10px;
+}
+
+.header .column td {
+  vertical-align: middle;
+}
+
+.menu .menu_item {
+  Margin-right: 2px;
+}
+
+.menu .menu_item td {
+  width: 50px;
+  height: 50px;
+}
+
+.menu .menu_item:nth-child(1) {
+  background-color: #ed3324;
+}
+
+.menu .menu_item:nth-child(2) {
+  background-color: #f16823;
+}
+
+.menu .menu_item:nth-child(3) {
+  background-color: #f59322;
+}
+
+.menu .menu_item:nth-child(4) {
+  background-color: #97c83d;
+}
+
+.menu .menu_item:nth-child(5) {
+  background-color: #679e42;
+}
+
+.menu .menu_item:nth-child(6) {
+  background-color: #3d7e3b;
+}
+
+.menu .menu_item:nth-child(7) {
+  background-color: #2db5e6;
+}
+
+.menu .menu_item:nth-child(8) {
+  background-color: #1889b8;
+}
+
+.menu .menu_item:nth-child(9) {
+  background-color: #233f85;
+}
+
+.menu .menu_item:nth-child(10) {
+  background-color: #b8509c;
+}
+
+.menu .menu_item:last-child {
+  background-color: #85509e;
+  Margin-right: 0;
+}
+
+body p.h1 {
+  color: #6c6a6a;
+  font: 26px Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.paragraph {
+  padding: 15px 0;
+}
+
+.paragraph .h2 {
+  color: #6c6a6a;
+  font: 26px Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.goods .inner,
+.recoms .inner {
+  padding: 5px;
+}
+
+.goods .contents,
+.recoms .contents {
+  border: 1px solid #f0f0f0;
+}
+
+.goods .contents td,
+.recoms .contents td {
+  padding: 0 10px;
+}
+
+.goods .contents tr:first-child td,
+.recoms .contents tr:first-child td {
+  padding: 5px 0;
+}
+
+.goods .contents tr:last-child td,
+.recoms .contents tr:last-child td {
+  padding-bottom: 20px;
+}
+
+.goods .contents .title,
+.recoms .contents .title {
+  height: 32px;
+  padding-bottom: 5px;
+}
+
+.goods .contents .title a,
+.recoms .contents .title a {
+  color: #313131;
+  text-decoration: none;
+}
+
+.goods .contents .title a:hover,
+.recoms .contents .title a:hover {
+  text-decoration: underline;
+}
+
+.goods .contents small,
+.recoms .contents small {
+  font-size: 11px;
+}
+
+.goods .contents .price,
+.recoms .contents .price {
+  font: 18px Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #f00;
+}
+
+.goods .contents .oldprice,
+.recoms .contents .oldprice {
+  font: 13px Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #868686;
+  text-decoration: line-through;
+}
+
+.type_text {
+  line-height: 19px;
+}
+
+.footer_menu {
+  border-top: 1px dotted #f0f0f0;
+  padding: 10px 0;
+}
+
+.footer_menu .footer_item td:first-child {
+  text-align: left;
+  width: 37px;
+}
+
+.footer_menu .footer_item td:last-child {
+  vertical-align: middle;
+  line-height: 34px;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #f2f1f1;
+  padding: 5px 0 10px;
+}
+
+.footer .text_header {
+  font: 15px Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #363636;
+  Margin-bottom: 5px;
+}
+
+.footer a {
+  color: #737373;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer .social td {
+  width: 44px;
+}
+
+.unsubscribe {
+  padding: 15px 0 5px;
+}
+
+.unsubscribe p {
+  font: 12px Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.unsubscribe a {
+  color: #d3d3d3;
+}
